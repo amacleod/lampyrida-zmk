@@ -1,0 +1,2 @@
+config SHIELD_LAMPYRIDA
+    def_bool $(shields_list_contains,lampyrida)

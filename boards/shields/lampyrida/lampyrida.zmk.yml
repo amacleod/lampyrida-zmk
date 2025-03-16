@@ -1,0 +1,11 @@
+---
+file_format: "1"
+id: lampyrida
+name: Lampyrida
+type: shield
+url: https://github.com/amacleod/lampyrida
+requires: [zero_d]
+exposes: []
+features:
+  - keys
+  - underglow

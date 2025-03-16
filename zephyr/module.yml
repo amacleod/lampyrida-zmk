@@ -1,0 +1,5 @@
+---
+name: zmk-keyboard-lampyrida
+build:
+  settings:
+    board_root: .
