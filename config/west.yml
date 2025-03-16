@@ -3,10 +3,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: saixos
+      url-base: https://github.com/nmunnich
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: saixos
+      revision: rp2040zero
       import: app/west.yml
   self:
     path: config
