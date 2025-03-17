@@ -9,7 +9,7 @@
     default_layer {
       bindings = <
         &rgb_ug RGB_ON     &rgb_ug RGB_OFF
-        &rgb_ug RGB_EFF    &rgb_ug RBG_EFR
+        &rgb_ug RGB_EFF    &rgb_ug RGB_EFR
       >;
     };
   };
