@@ -7,8 +7,8 @@
 
     default_layer {
       bindings = <
-        &kp N1     &kp N3
-        &kp N2     &kp N4
+        &rgb_ug RGB_ON     &rgb_ug RGB_OFF
+        &rgb_ug RGB_EFF    &rgb_ug RBG_EFR
       >;
     };
   };
