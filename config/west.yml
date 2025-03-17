@@ -7,9 +7,13 @@ manifest:
       url-base: https://github.com/nmunnich
   projects:
     - name: zmk
+      # remote: zmkfirmware
+      # revision: main
       remote: saixos
-      # revision: rp2040zero
-      revision: dfae0777
+      revision: dfae07778fee6d41711e37a8d2cf46c97c848abd
       import: app/west.yml
+    # - name: zmk-component-rp2040-zero
+    #   remote: saixos
+    #   revision: main
   self:
     path: config
