@@ -1,6 +1,27 @@
+/*
+ * Copyright (c) 2025 Allister MacLeod
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h>
 #include <dt-bindings/led/led.h>
 
-&spi0 {
+&pinctrl {
+  spi3_default: spi3_default {
+    group1 {
+      pinmux = <SPI0_TX_P3>;
+    };
+    group2 {
+      pinmux = <SPI0_RX_P4>;
+      input-enable;
+    };
+    group3 {
+      pinmux = <SPI0_SCK_P6>;
+    };
+  };
+};
+
+&spi3 {
   led_strip: ws2812@0 {
     compatible = "worldsemi,ws2812-spi";
 
